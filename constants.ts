@@ -118,9 +118,9 @@ export const QUESTIONS: Question[] = [
   },
   {
     "subject": "Math",
-    "question": "The bar graph shows students in classes 6–9 as 40, 35, 30, 45. Find the average number of students per class.",
-    "options": ["35", "37.5", "40", "42.5"],
-    "answer": "37.5"
+    "question": "The daily temperatures (°C) of a city for 5 days are 28, 30, 32, 34, 36. What is the median temperature?",
+    "options": ["30°C", "32°C", "33°C", "34°C"],
+    "answer": "32°C"
   },
   // Science - 18 Questions
   {
@@ -234,7 +234,7 @@ export const QUESTIONS: Question[] = [
   // English - 15 Questions
   {
     "subject": "English",
-    "question": `Read the passage and answer the question:\n\n${ENGLISH_PASSAGE}\n\nThe word “quiet” in the sentence “the streets were still quiet” is a:`,
+    "question": "The word “quiet” in the sentence “the streets were still quiet” is a:",
     "options": ["Noun", "Verb", "Adjective", "Adverb"],
     "answer": "Adjective"
   },
