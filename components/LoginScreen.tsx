@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { User } from '../types';
+import { ALLOWED_USERNAMES } from '../constants';
 
 interface LoginScreenProps {
   onLogin: (user: User) => void;
@@ -16,13 +17,20 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
     e.preventDefault();
     setError('');
 
-    if (!username.trim() || !password.trim()) {
+    const trimmedUsername = username.trim().toLowerCase();
+
+    if (!trimmedUsername || !password.trim()) {
       setError('Please enter both username and password.');
       return;
     }
 
+    if (!ALLOWED_USERNAMES.includes(trimmedUsername)) {
+      setError('This username is not registered for the test.');
+      return;
+    }
+
     if (password === STUDENT_PASSWORD) {
-      onLogin({ username });
+      onLogin({ username: trimmedUsername });
     } else {
       setError('Incorrect password. Please try again.');
     }
@@ -58,7 +66,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     className="appearance-none block w-full px-3 py-2 pl-10 border border-indigo-600 bg-indigo-700 text-white rounded-md placeholder-indigo-400 focus:outline-none focus:ring-white focus:border-white sm:text-sm"
-                    placeholder="e.g., student123"
+                    placeholder="e.g., mehdi.shah"
                 />
             </div>
           </div>
