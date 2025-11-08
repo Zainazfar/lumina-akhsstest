@@ -10,7 +10,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  const STUDENT_PASSWORD = 'lumina.akhss';
+  const STUDENT_PASSWORD = 'lumina.testmock';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
