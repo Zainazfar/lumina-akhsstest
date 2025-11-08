@@ -72,7 +72,9 @@ export const ALLOWED_USERNAMES: string[] = [
   'kawish.arif',
   'muheed.ullah',
   'mueed.ali',
-  'anaya'
+  'anaya',
+  'ishaq.nadir',
+  'almas'
 ];
 
 
