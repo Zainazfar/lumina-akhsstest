@@ -22,7 +22,7 @@ const Header: React.FC<HeaderProps> = ({ onAdminClick }) => {
              />
              <div>
                 <h1 className="text-xl md:text-2xl font-bold [text-shadow:_1px_1px_2px_rgb(0_0_0_/_20%)]">AKHSS Gilgit Entrance Test</h1>
-                <p className="text-xs md:text-sm text-white/90 [text-shadow:_1px_1px_2px_rgb(0_0_0_/_20%)]">Lumina Council Mock Series 2025</p>
+                <p className="text-xs md:text-sm text-white/90 [text-shadow:_1px_1px_2px_rgb(0_0_0_/_20%)]">Lumina Council Mock Series 2026</p>
              </div>
           </div>
            <div className="w-1/4 text-right">
