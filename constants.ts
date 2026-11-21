@@ -4,13 +4,13 @@ import { Question } from './types';
 export const ALLOWED_USERNAMES: string[] = [
   'alizar.abbas',
   'arham.hussain',
-  'm.zakriya', // or 'zakriya.rahimi'
-  'majid.hussain1', // duplicate of 'majid.hussain'
+  'm.zakriya', 
+  'majid.hussain',
   'naviyan.ali',
-  'muhammad.kiyan1', // duplicate of 'muhammad.kiyan'
+  'muhammad.kiyan', 
   'ali.alam',
-  'hussain.fazal', // or 'hussain.ullah'
-  'm.riyaan', // or 'riyaan'
+  'hussain.fazal', 
+  'm.riyaan',
   'mustafain.abbas',
 ];
 
