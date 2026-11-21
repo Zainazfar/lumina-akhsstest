@@ -12,7 +12,7 @@ export const ALLOWED_USERNAMES: string[] = [
   'hussain.fazal', 
   'm.riyaan',
   'mustafain.abbas',
-  'emaad.baig'
+  'emaad.baig',
   'lumina.std'
 ];
 
