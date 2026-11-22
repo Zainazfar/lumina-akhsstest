@@ -2,19 +2,7 @@
 import { Question } from './types';
 
 export const ALLOWED_USERNAMES: string[] = [
-  'alizar.abbas',
-  'arham.hussain',
-  'm.zakriya', 
-  'majid.hussain',
-  'naviyan.ali',
-  'muhammad.kiyan', 
-  'ali.alam',
-  'hussain.fazal', 
-  'm.riyaan',
-  'mustafain.abbas',
-  'emaad.baig',
-  'asif.naeem',
-  'lumina.std'
+  'lumina.user'
 ];
 
 
