@@ -2,6 +2,7 @@
 import { Question } from './types';
 
 export const ALLOWED_USERNAMES: string[] = [
+  'azlan.hayat',
   'lumina.user'
 ];
 
